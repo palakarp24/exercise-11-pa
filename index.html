@@ -4,36 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azure: Kysymyksiä ja vastauksia</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
 
-    <h2>Azure: Kysymyksiä ja vastauksia</h2>
+    <div class="container">
+        <header>
+            <h2>Azure: Kysymyksiä ja vastauksia</h2>
+            <p class="subtitle"></p>
+        </header>
 
-    <ol>
-        <li>
-            Mikä on Azure Blob Storage?
-            <div class="vastaus">Tallennuspalvelu strukturoimattomalle datalle, kuten kuville, videoille ja dokumenteille.</div>
-        </li>
-        <li>
-            Mitä Azure Resource Group tarkoittaa?
-            <div class="vastaus">Säiliö, johon Azure-resurssit (kuten virtuaalikoneet ja tietokannat) ryhmitellään hallintaa varten.</div>
-        </li>
-        <li>
-            Mikä on Azure Virtual Network (VNet)?
-            <div class="vastaus">Azure-pilvessä sijaitseva virtuaaliverkko, joka mahdollistaa resurssien turvallisen tietoliikenteen.</div>
-        </li>
-        <li>
-            Mikä on Azure App Service?
-            <div class="vastaus">PaaS-palvelu verkkosovellusten ja REST API -rajapintojen nopeaan julkaisuun ja isännöintiin.</div>
-        </li>
-        <li>
-            Mitä tarkoitetaan Microsoft Entra ID:llä (ent. Azure AD)?
-            <div class="vastaus">Pilvipohjainen identiteetin- ja pääsynhallintapalvelu (IAM).</div>
-        </li>
-    </ol>
+        <ol class="question-list">
+            <li class="card">
+                <div class="question-title">Mikä on Azure Blob Storage?</div>
+                <div class="vastaus">Tallennuspalvelu strukturoimattomalle datalle, kuten kuville, videoille ja dokumenteille.</div>
+            </li>
+            <li class="card">
+                <div class="question-title">Mitä Azure Resource Group tarkoittaa?</div>
+                <div class="vastaus">Säiliö, johon Azure-resurssit (kuten virtuaalikoneet ja tietokannat) ryhmitellään hallintaa varten.</div>
+            </li>
+            <li class="card">
+                <div class="question-title">Mikä on Azure Virtual Network (VNet)?</div>
+                <div class="vastaus">Azure-pilvessä sijaitseva virtuaaliverkko, joka mahdollistaa resurssien turvallisen tietoliikenteen.</div>
+            </li>
+            <li class="card">
+                <div class="question-title">Mikä on Azure App Service?</div>
+                <div class="vastaus">PaaS-palvelu verkkosovellusten ja REST API -rajapintojen nopeaan julkaisuun ja isännöintiin.</div>
+            </li>
+            <li class="card">
+                <div class="question-title">Mitä tarkoitetaan Microsoft Entra ID:llä (ent. Azure AD)?</div>
+                <div class="vastaus">Pilvipohjainen identiteetin- ja pääsynhallintapalvelu (IAM).</div>
+            </li>
+        </ol>
 
-    <button id="nappi">Näytä vastaukset</button>
+        <div class="button-container">
+            <button id="nappi">Näytä vastaukset</button>
+        </div>
+    </div>
 
     <script src="js/functions.js"></script>
 </body>
