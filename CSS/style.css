@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.vastaus {
+    margin-top: 5px;
+    font-weight: normal;
+    font-style: italic;
+    display: none;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
